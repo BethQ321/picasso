@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(251, 220, 220);
+    }
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    display: flex;
+}
+
+
+.container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px black solid;
+    width: 800px;
+    height: 650px;
+    background-color: lightblue;
+}
+
+.leftTree {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 220px;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+
+    border-bottom: 350px solid forestgreen;
+}
+
+.middleTree {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 100px;
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+
+    border-bottom: 500px solid rgb(11, 70, 11);
+}
+
+.rightTree {
+    position: absolute;
+    z-index: 4;
+    margin-left: 450px;
+    margin-top: 160px;
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+
+    border-bottom: 400px solid rgb(42, 113, 42);
+}
+
+.snow {
+    position: absolute;
+    margin-top: 550px;
+    width: 800px;
+    height: 100px;
+    background-color: white;
+}
